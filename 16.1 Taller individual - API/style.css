@@ -1,0 +1,79 @@
+body{
+    background-image: url(img/fondo2.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    width: 100wh;
+    height: 100vh;
+}
+
+main{
+    
+}
+
+nav{
+    padding: 5px;
+}
+
+.container{
+    margin-bottom: 80px;
+    margin-top: 50px;
+}
+
+.logo {
+    margin-left: 30px;
+    height: 40px;
+}
+
+h4 {
+    color: whitesmoke;
+    font-size: smaller;
+    margin-right: 20px;
+}
+
+.card{
+    height: 400px;
+}
+
+
+.h3, h3 {
+    font-size: medium;
+    height: 20%;
+}
+
+.card-img-container {
+    height: 80%; 
+    overflow: hidden;
+}
+  
+  .img-card {
+    width: 100%;
+    height: 100%;
+    object-fit: cover; /* Asegura que la imagen se ajuste al espacio */
+    padding: 2px;
+  }
+  
+  .card-body {
+    height: 20%; /* El cuerpo (donde está el título) ocupa el 20% de la tarjeta */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    padding: 10px;
+  }
+
+.footer{
+    background-color: darkred;
+    height: 30px;
+    display: flex;
+    justify-content: center;
+}  
+
+.copy{
+    color: whitesmoke;
+}
+
+.row {
+    background-color: black;
+    padding-bottom: 7px;
+}
